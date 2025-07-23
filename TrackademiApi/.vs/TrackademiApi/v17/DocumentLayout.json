@@ -1,0 +1,750 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\controllers\\controlasistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\controllers\\controlasistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\controlasistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\controlasistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\dtos\\controlasistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\dtos\\controlasistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\dtos\\calificacionesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\dtos\\calificacionesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\controllers\\calificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\controllers\\calificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\materiasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\materiasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\interfaces\\icalificacionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\interfaces\\icalificacionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\interfaces\\icontrolasistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\interfaces\\icontrolasistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\calificacionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\calificacionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\mappers\\modelmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\mappers\\modelmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\interfaces\\imateriasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\interfaces\\imateriasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\estudiantesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\estudiantesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\utilities\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\utilities\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\controllers\\perfilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\controllers\\perfilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\dtos\\periodosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\dtos\\periodosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\controllers\\periodoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\controllers\\periodoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\dtos\\perfilesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\dtos\\perfilesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\dtos\\estudiantesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\dtos\\estudiantesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\interfaces\\iperiodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\interfaces\\iperiodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\interfaces\\iestudiantesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\interfaces\\iestudiantesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\interfaces\\iusuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\interfaces\\iusuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\interfaces\\iperfilesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\interfaces\\iperfilesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\dtos\\calificacionextendidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\dtos\\calificacionextendidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\entities\\trackademicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\entities\\trackademicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\entities\\materiainscrita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\entities\\materiainscrita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\dtos\\materiainscritadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\dtos\\materiainscritadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\usuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\usuariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\dtos\\materiadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\dtos\\materiadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\perfilesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\perfilesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\mappers\\objectsmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\mappers\\objectsmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\services\\interfaces\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\services\\interfaces\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\dtos\\usuariosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\dtos\\usuariosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\entities\\perfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\entities\\perfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\trackademiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\trackademiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\repository\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\repository\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\entities\\periodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\entities\\periodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\entities\\estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\entities\\estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|c:\\users\\thewi\\source\\repos\\trackademiapi\\trackademiapi\\models\\dtos\\logdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A211BC-82BD-452A-A14D-09741E704E6D}|TrackademiApi\\TrackademiApi.csproj|solutionrelative:trackademiapi\\models\\dtos\\logdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ValidationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Utilities\\ValidationHelper.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Utilities\\ValidationHelper.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Utilities\\ValidationHelper.cs",
+              "RelativeToolTip": "TrackademiApi\\Utilities\\ValidationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:11:40.434Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MateriasController.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\MateriasController.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Controllers\\MateriasController.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\MateriasController.cs",
+              "RelativeToolTip": "TrackademiApi\\Controllers\\MateriasController.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAAALkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:35:14.008Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControlAsistenciaDto.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\ControlAsistenciaDto.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\DTOs\\ControlAsistenciaDto.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\ControlAsistenciaDto.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\DTOs\\ControlAsistenciaDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T05:44:58.202Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControlAsistenciaService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\ControlAsistenciaService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\ControlAsistenciaService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\ControlAsistenciaService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\ControlAsistenciaService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAjwEIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T05:41:26.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ControlAsistenciaController.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\ControlAsistenciaController.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Controllers\\ControlAsistenciaController.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\ControlAsistenciaController.cs",
+              "RelativeToolTip": "TrackademiApi\\Controllers\\ControlAsistenciaController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwDsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T05:49:37.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IControlAsistenciaService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IControlAsistenciaService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\Interfaces\\IControlAsistenciaService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IControlAsistenciaService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\Interfaces\\IControlAsistenciaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T05:40:19.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalificacionesDto.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\CalificacionesDto.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\DTOs\\CalificacionesDto.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\CalificacionesDto.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\DTOs\\CalificacionesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:55:17.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MateriasService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\MateriasService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\MateriasService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\MateriasService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\MateriasService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAUwFMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:27:45.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalificacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\CalificacionesController.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Controllers\\CalificacionesController.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\CalificacionesController.cs",
+              "RelativeToolTip": "TrackademiApi\\Controllers\\CalificacionesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:46:30.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModelMapper.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Mappers\\ModelMapper.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Mappers\\ModelMapper.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Mappers\\ModelMapper.cs",
+              "RelativeToolTip": "TrackademiApi\\Mappers\\ModelMapper.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAQwLEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:24:39.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CalificacionesService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\CalificacionesService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\CalificacionesService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\CalificacionesService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\CalificacionesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T05:51:10.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Program.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Program.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Program.cs",
+              "RelativeToolTip": "TrackademiApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:53:21.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICalificacionesService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\ICalificacionesService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\Interfaces\\ICalificacionesService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\ICalificacionesService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\Interfaces\\ICalificacionesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T05:35:33.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMateriasService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IMateriasService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\Interfaces\\IMateriasService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IMateriasService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\Interfaces\\IMateriasService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:10:56.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EstudiantesController.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\EstudiantesController.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Controllers\\EstudiantesController.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\EstudiantesController.cs",
+              "RelativeToolTip": "TrackademiApi\\Controllers\\EstudiantesController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T07:10:11.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EstudiantesService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\EstudiantesService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\EstudiantesService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\EstudiantesService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\EstudiantesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:55:31.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PerfilesController.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\PerfilesController.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Controllers\\PerfilesController.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\PerfilesController.cs",
+              "RelativeToolTip": "TrackademiApi\\Controllers\\PerfilesController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T23:14:47.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PerfilesDto.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\PerfilesDto.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\DTOs\\PerfilesDto.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\PerfilesDto.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\DTOs\\PerfilesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:10:46.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EstudiantesDto.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\EstudiantesDto.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\DTOs\\EstudiantesDto.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\EstudiantesDto.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\DTOs\\EstudiantesDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T05:45:28.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "TrackademiApi\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:52:11.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PeriodosDto.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\PeriodosDto.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\DTOs\\PeriodosDto.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\PeriodosDto.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\DTOs\\PeriodosDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:11:06.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PeriodosController.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\PeriodosController.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Controllers\\PeriodosController.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Controllers\\PeriodosController.cs",
+              "RelativeToolTip": "TrackademiApi\\Controllers\\PeriodosController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T03:00:01.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPeriodo.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IPeriodo.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\Interfaces\\IPeriodo.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IPeriodo.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\Interfaces\\IPeriodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T03:17:23.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IEstudiantesService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IEstudiantesService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\Interfaces\\IEstudiantesService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IEstudiantesService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\Interfaces\\IEstudiantesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:52:21.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TrackademiApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\appsettings.json",
+              "RelativeToolTip": "TrackademiApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-18T16:58:54.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUsuariosService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IUsuariosService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\Interfaces\\IUsuariosService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IUsuariosService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\Interfaces\\IUsuariosService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:00:49.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPerfilesService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IPerfilesService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\Interfaces\\IPerfilesService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IPerfilesService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\Interfaces\\IPerfilesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T23:11:34.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CalificacionExtendidaDto.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\CalificacionExtendidaDto.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\DTOs\\CalificacionExtendidaDto.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\CalificacionExtendidaDto.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\DTOs\\CalificacionExtendidaDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:31:31.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MateriaInscritaDto.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\MateriaInscritaDto.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\DTOs\\MateriaInscritaDto.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\MateriaInscritaDto.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\DTOs\\MateriaInscritaDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:10:32.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MateriaInscrita.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\Entities\\MateriaInscrita.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\Entities\\MateriaInscrita.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\Entities\\MateriaInscrita.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\Entities\\MateriaInscrita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:12:16.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TrackademiContext.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\Entities\\TrackademiContext.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\Entities\\TrackademiContext.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\Entities\\TrackademiContext.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\Entities\\TrackademiContext.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAASwLcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T23:28:23.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "TrackademiApi\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:15:51.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UsuariosService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\UsuariosService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\UsuariosService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\UsuariosService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\UsuariosService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:28:10.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MateriaDto.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\MateriaDto.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\DTOs\\MateriaDto.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\MateriaDto.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\DTOs\\MateriaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:10:12.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PerfilesService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\PerfilesService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\PerfilesService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\PerfilesService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\PerfilesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T23:12:40.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IGenericService.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Services\\Interfaces\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Services\\Interfaces\\IGenericService.cs",
+              "RelativeToolTip": "TrackademiApi\\Services\\Interfaces\\IGenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:30:47.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ObjectsMapper.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Mappers\\ObjectsMapper.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Mappers\\ObjectsMapper.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Mappers\\ObjectsMapper.cs",
+              "RelativeToolTip": "TrackademiApi\\Mappers\\ObjectsMapper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:23:23.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UsuariosDto.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\UsuariosDto.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\DTOs\\UsuariosDto.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\UsuariosDto.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\DTOs\\UsuariosDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:11:16.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Perfiles.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\Entities\\Perfiles.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\Entities\\Perfiles.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\Entities\\Perfiles.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\Entities\\Perfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:10:59.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TrackademiApi.csproj",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\TrackademiApi.csproj",
+              "RelativeDocumentMoniker": "TrackademiApi\\TrackademiApi.csproj",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\TrackademiApi.csproj",
+              "RelativeToolTip": "TrackademiApi\\TrackademiApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-18T06:13:17.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Repository\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Repository\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Repository\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "TrackademiApi\\Repository\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:14:45.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Periodos.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\Entities\\Periodos.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\Entities\\Periodos.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\Entities\\Periodos.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\Entities\\Periodos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:11:51.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LogDto.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\LogDto.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\DTOs\\LogDto.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\DTOs\\LogDto.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\DTOs\\LogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:09:45.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Estudiantes.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\Entities\\Estudiantes.cs",
+              "RelativeDocumentMoniker": "TrackademiApi\\Models\\Entities\\Estudiantes.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\TrackademiApi\\TrackademiApi\\Models\\Entities\\Estudiantes.cs",
+              "RelativeToolTip": "TrackademiApi\\Models\\Entities\\Estudiantes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:09:29.159Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+.layout-wrapper {
+  display: flex;
+  height: 100vh;
+
+  .sidebar {
+    width: 240px;
+    background-color: #f8fafc;
+    color: #3b8a6a;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+
+    &.sidebar-hidden {
+      transform: translateX(-100%);
+      position: absolute;
+      z-index: 20;
+      height: 100%;
+    }
+
+    .sidebar-header h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .user-info {
+      margin-top: auto;
+      padding-top: 1rem;
+      border-top: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      .avatar {
+        font-size: 1.5rem;
+      }
+
+      .name {
+        font-weight: bold;
+      }
+
+      .role {
+        font-size: 0.8rem;
+        color: #999;
+      }
+    }
+  }
+
+  .content {
+    flex: 1;
+    padding: 1.5rem;
+    background-color: #f8fff8;
+    overflow-y: auto;
+  }
+
+  .toggle-sidebar-btn {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 30;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #3b8a6a;
+  }
+}
+
+@media (max-width: 768px) {
+  .toggle-sidebar-btn {
+    display: block;
+  }
+
+  .sidebar {
+    position: absolute;
+    z-index: 20;
+    height: 100%;
+  }
+}
+
+

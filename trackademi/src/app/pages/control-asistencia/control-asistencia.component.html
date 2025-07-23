@@ -1,0 +1,110 @@
+<div class="p-card">
+  <h2 class="p-mb-3">Control de Asistencia</h2>
+  <div class="" style="display: flexbox">
+    <button
+      pButton
+      label="Guardar Asistencia"
+      icon="pi pi-save"
+      class="p-button-sm p-button-primary"
+      style="float: right !important; padding-left: 5px"
+      (click)="guardarAsistencia()"
+      [disabled]="!materiaSeleccionada || estudiantes.length === 0"
+    ></button>
+    <button
+      pButton
+      label="Ver Historial"
+      icon="pi pi-list"
+      style="float: right !important; margin-left: 15px"
+      class="p-button-sm p-button-secondary"
+      (click)="verHistorial()"
+      [disabled]="!materiaSeleccionada"
+    ></button>
+  </div>
+  <!-- Filtros -->
+  <div class="p-col-12">
+    <div class="p-col-4 p-md-4">
+      <label for="materia">Materia</label>
+      <p-dropdown
+        [options]="materias"
+        [(ngModel)]="materiaSeleccionada"
+        optionLabel="nombre"
+        placeholder="Seleccione una materia"
+        (onChange)="cargarEstudiantes(materiaSeleccionada?.id)"
+      ></p-dropdown>
+      <div class="p-col-3 p-md-3">
+        <label for="fecha">Fecha</label>
+        <p-calendar
+          [(ngModel)]="fechaAsistencia"
+          dateFormat="dd/mm/yy"
+        ></p-calendar>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabla de estudiantes con checkbox -->
+  <p-table
+    *ngIf="estudiantes.length > 0"
+    [value]="estudiantes"
+    [paginator]="true"
+    [rows]="5"
+    class="p-mt-3"
+  >
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Estudiante</th>
+        <th>Matrícula</th>
+        <th>Correo</th>
+        <th>Presente</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-est>
+      <tr>
+        <td>{{ est.nombres }} {{ est.apellidos }}</td>
+        <td>{{ est.matricula }}</td>
+        <td>{{ est.email }}</td>
+        <td>
+          <p-checkbox
+            [(ngModel)]="asistencia[est.idEstudiante]"
+            binary="true"
+          ></p-checkbox>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
+
+<p-dialog
+  header="Historial de Asistencia"
+  [(visible)]="historialDialogVisible"
+  [modal]="true"
+  [style]="{ width: '700px' }"
+  [breakpoints]="{ '960px': '95vw' }"
+>
+  <p-table [value]="historialAsistencia" [paginator]="true" [rows]="5">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Estudiante</th>
+        <th>Matrícula</th>
+        <th>Fecha</th>
+        <th>Presente</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-hist>
+      <tr>
+        <td>{{ hist.nombres }} {{ hist.apellidos }}</td>
+        <td>{{ hist.matricula }}</td>
+        <td>{{ hist.fecha | date : "dd/MM/yyyy" }}</td>
+        <td>
+          <span
+            [ngClass]="{
+              'text-success': hist.presente,
+              'text-danger': !hist.presente
+            }"
+          >
+            {{ hist.presente ? "✓" : "✗" }}
+          </span>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</p-dialog>

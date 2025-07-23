@@ -1,0 +1,135 @@
+<div class="card">
+  <div class="flex justify-between items-center mb-3">
+    <h2 class="text-xl font-semibold">Calificación</h2>
+    <div class="flex gap-2">
+      <p-dropdown
+        [options]="materias"
+        [(ngModel)]="materiaSeleccionada"
+        placeholder="Seleccionar materia"
+        optionLabel="nombre"
+        class="w-64"
+        (onChange)="onMateriaSeleccionada()"
+      ></p-dropdown>
+
+      <button
+        pButton
+        label="Guardar Calificaciones"
+        icon="pi pi-save"
+        class="p-button-sm p-button-primary"
+        (click)="guardarTodas()"
+        [disabled]="!materiaSeleccionada"
+      ></button>
+    </div>
+  </div>
+
+  <p-table
+    [value]="calificaciones"
+    [paginator]="true"
+    [rows]="10"
+    [globalFilterFields]="['estudianteNombre', 'matricula', 'email']"
+    responsiveLayout="scroll"
+    #dt
+  >
+    <ng-template pTemplate="caption">
+      <div class="p-input-icon-left">
+        <i class="pi pi-search"></i>
+        <input
+          pInputText
+          type="text"
+          placeholder="Buscar..."
+          (input)="buscarGlobal($event)"
+        />
+      </div>
+    </ng-template>
+
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Estudiante</th>
+        <th>Matrícula</th>
+        <th>Correo</th>
+        <th>Nota Parcial</th>
+        <th>Nota Final</th>
+        <th>Literal</th>
+        <th>Observaciones</th>
+        <th>Acciones</th>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-calif let-i="rowIndex">
+      <tr>
+        <td>{{ calif.nombreCompleto }}</td>
+        <td>{{ calif.matricula }}</td>
+        <td>{{ calif.email }}</td>
+
+        <!-- notaParcial -->
+        <td>
+          <p-inputNumber
+            [(ngModel)]="calif.notaParcial"
+            [min]="0"
+            [max]="100"
+            inputStyleClass="w-full"
+            mode="decimal"
+            [disabled]="modoEdicionFilaId !== calif.idCalificacion"
+          ></p-inputNumber>
+        </td>
+
+        <!-- notaFinal -->
+        <td>
+          <p-inputNumber
+            [(ngModel)]="calif.notaFinal"
+            [min]="0"
+            [max]="100"
+            inputStyleClass="w-full"
+            mode="decimal"
+            [disabled]="modoEdicionFilaId !== calif.idCalificacion"
+          ></p-inputNumber>
+        </td>
+
+        <!-- literal -->
+        <td>{{ calif.notaFinal | literal }}</td>
+
+        <!-- observaciones -->
+        <td>
+          <textarea
+            pInputTextarea
+            [(ngModel)]="calif.observaciones"
+            rows="1"
+            style="width: 100%"
+            placeholder="Opcional"
+            [disabled]="modoEdicionFilaId !== calif.idCalificacion"
+          ></textarea>
+        </td>
+
+        <!-- Acciones -->
+        <td class="text-nowrap">
+          <button
+            *ngIf="modoEdicionFilaId !== calif.idCalificacion"
+            pButton
+            icon="pi pi-pencil"
+            class="p-button-rounded p-button-text p-button-sm p-button-info"
+            (click)="modoEdicionFilaId = calif.idCalificacion"
+            title="Editar"
+          ></button>
+
+          <button
+            *ngIf="modoEdicionFilaId === calif.idCalificacion"
+            pButton
+            icon="pi pi-save"
+            class="p-button-rounded p-button-text p-button-sm p-button-success"
+            (click)="guardarFila(calif)"
+            title="Guardar cambios"
+          ></button>
+
+          <button
+            *ngIf="modoEdicionFilaId === calif.idCalificacion"
+            pButton
+            icon="pi pi-times"
+            class="p-button-rounded p-button-text p-button-sm p-button-secondary"
+            (click)="modoEdicionFilaId = null"
+            title="Cancelar edición"
+          ></button>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>

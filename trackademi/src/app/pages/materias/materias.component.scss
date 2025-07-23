@@ -1,0 +1,114 @@
+:host ::ng-deep {
+  .custom-dialog {
+    .p-dialog-header {
+      background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-600) 100%);
+      color: white;
+      padding: 1.5rem;
+      border-radius: 6px 6px 0 0;
+    }
+
+    .p-dialog-content {
+      padding: 0;
+      background: var(--surface-50);
+    }
+
+    .p-dialog-footer {
+      padding: 1rem 1.5rem;
+      background: var(--surface-0);
+      border-top: 1px solid var(--surface-border);
+    }
+  }
+
+  .dialog-content {
+    padding: 1.5rem;
+    animation: fadeInUp 0.3s ease-out;
+  }
+
+  /* Personalización del MultiSelect */
+  .custom-multiselect-panel {
+    .p-multiselect-item {
+      padding: 0.5rem;
+      border-radius: 6px;
+      margin: 0.25rem;
+      transition: all 0.2s;
+
+      &:hover {
+        background: var(--primary-50);
+        transform: translateY(-1px);
+      }
+
+      &.p-highlight {
+        background: var(--primary-100);
+        color: var(--primary-800);
+      }
+    }
+  }
+
+  /* Chips personalizados */
+  .p-multiselect-token {
+    background: var(--primary-100);
+    color: var(--primary-800);
+    border-radius: 20px;
+    padding: 0.25rem 0.75rem;
+    margin: 0.125rem;
+    border: 1px solid var(--primary-200);
+    
+    .p-multiselect-token-label {
+      font-weight: 500;
+    }
+  }
+
+  /* Animaciones */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .custom-dialog {
+      width: 95vw !important;
+      max-width: none !important;
+      margin: 1rem;
+    }
+
+    .dialog-content {
+      padding: 1rem;
+    }
+
+    .grid .col-12.md\\:col-6.lg\\:col-4 {
+      padding: 0.25rem;
+    }
+  }
+
+  /* Mejoras visuales adicionales */
+  .p-fieldset {
+    .p-fieldset-legend {
+      background: var(--primary-color);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+  }
+
+  .p-tag {
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .surface-card {
+    transition: all 0.2s;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+  }
+}

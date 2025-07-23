@@ -1,0 +1,675 @@
+[
+  {
+    "ContainingType": "TrackademiApi.Controllers.CalificacionesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Calificaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.CalificacionesController",
+    "Method": "Create",
+    "RelativePath": "api/Calificaciones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.CalificacionesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.CalificacionesController",
+    "Method": "Update",
+    "RelativePath": "api/Calificaciones",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.CalificacionesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.CalificacionesController",
+    "Method": "GetById",
+    "RelativePath": "api/Calificaciones/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.CalificacionesController",
+    "Method": "Delete",
+    "RelativePath": "api/Calificaciones/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.CalificacionesController",
+    "Method": "GetExtendidasPorMateria",
+    "RelativePath": "api/Calificaciones/completo/materia/{idMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMateria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.CalificacionesController",
+    "Method": "GetByEstudiante",
+    "RelativePath": "api/Calificaciones/estudiante/{idEstudiante}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEstudiante",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.CalificacionesController",
+    "Method": "ObtenerLiteral",
+    "RelativePath": "api/Calificaciones/literal/{notaFinal}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notaFinal",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.CalificacionesController",
+    "Method": "GuardarLote",
+    "RelativePath": "api/Calificaciones/lote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calificaciones",
+        "Type": "System.Collections.Generic.List\u00601[[TrackademiApi.Models.Entities.CalificacionesDto, TrackademiApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.CalificacionesController",
+    "Method": "GetByMateria",
+    "RelativePath": "api/Calificaciones/materia/{idMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMateria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.ControlAsistenciaController",
+    "Method": "Registrar",
+    "RelativePath": "api/ControlAsistencia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registros",
+        "Type": "System.Collections.Generic.List\u00601[[TrackademiApi.Models.Entities.ControlAsistenciaDto, TrackademiApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.ControlAsistenciaController",
+    "Method": "ObtenerEstudiantesConDetalle",
+    "RelativePath": "api/ControlAsistencia/estudiantes/{idMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMateria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.ControlAsistenciaController",
+    "Method": "ObtenerHistorialPorMateria",
+    "RelativePath": "api/ControlAsistencia/historial/{idMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMateria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.EstudiantesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Estudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.EstudiantesController",
+    "Method": "Create",
+    "RelativePath": "api/Estudiantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.EstudiantesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.EstudiantesController",
+    "Method": "Update",
+    "RelativePath": "api/Estudiantes",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.EstudiantesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.EstudiantesController",
+    "Method": "GetById",
+    "RelativePath": "api/Estudiantes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.EstudiantesController",
+    "Method": "Delete",
+    "RelativePath": "api/Estudiantes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.EstudiantesController",
+    "Method": "BuscarPorNombre",
+    "RelativePath": "api/Estudiantes/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.MateriasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Materias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.MateriasController",
+    "Method": "Create",
+    "RelativePath": "api/Materias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.MateriaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.MateriasController",
+    "Method": "Update",
+    "RelativePath": "api/Materias",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.MateriaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.MateriasController",
+    "Method": "GetById",
+    "RelativePath": "api/Materias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.MateriasController",
+    "Method": "Delete",
+    "RelativePath": "api/Materias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.MateriasController",
+    "Method": "AsociarEstudiantes",
+    "RelativePath": "api/Materias/asociar-estudiantes/{idMateria}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMateria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idsEstudiantes",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.MateriasController",
+    "Method": "BuscarPorNombre",
+    "RelativePath": "api/Materias/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.MateriasController",
+    "Method": "GetCantidadEstudiantesAsociados",
+    "RelativePath": "api/Materias/cantidad-estudiantes/{idMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMateria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.MateriasController",
+    "Method": "GetEstudiantesAsociados",
+    "RelativePath": "api/Materias/estudiantes-asociados/{idMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMateria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.MateriasController",
+    "Method": "ObtenerEstudiantesAsociadosConDetalle",
+    "RelativePath": "api/Materias/estudiantes-detalle/{idMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMateria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.PerfilesController",
+    "Method": "Get",
+    "RelativePath": "api/Perfiles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.PerfilesController",
+    "Method": "Create",
+    "RelativePath": "api/Perfiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.PerfilesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.PerfilesController",
+    "Method": "Update",
+    "RelativePath": "api/Perfiles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.PerfilesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.PerfilesController",
+    "Method": "Delete",
+    "RelativePath": "api/Perfiles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.PeriodosController",
+    "Method": "Get",
+    "RelativePath": "api/Periodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.PeriodosController",
+    "Method": "Post",
+    "RelativePath": "api/Periodos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.PeriodosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.PeriodosController",
+    "Method": "Put",
+    "RelativePath": "api/Periodos",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.PeriodosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.PeriodosController",
+    "Method": "Get",
+    "RelativePath": "api/Periodos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.PeriodosController",
+    "Method": "Delete",
+    "RelativePath": "api/Periodos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.UsuariosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.UsuariosController",
+    "Method": "Create",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.UsuariosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.UsuariosController",
+    "Method": "Update",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TrackademiApi.Models.Entities.UsuariosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.UsuariosController",
+    "Method": "GetById",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.UsuariosController",
+    "Method": "Delete",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrackademiApi.Controllers.UsuariosController",
+    "Method": "BuscarPorCorreo",
+    "RelativePath": "api/Usuarios/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "correo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

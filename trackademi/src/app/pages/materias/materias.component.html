@@ -1,0 +1,214 @@
+<!-- Botón para crear nueva materia -->
+<div class="p-card">
+  <button
+    pButton
+    type="button"
+    label="Crear Materia"
+    icon="pi pi-plus"
+    class="p-button-success mb-3"
+    (click)="abrirDialogCrear()"
+  ></button>
+
+  <!-- Tabla de materias -->
+  <p-table
+    #dt
+    [value]="materias"
+    [paginator]="true"
+    [rows]="5"
+    [globalFilterFields]="['nombre', 'detalle']"
+  >
+    <ng-template pTemplate="caption">
+      <div class="p-input-icon-left">
+        <i class="pi pi-search"></i>
+        <input
+          pInputText
+          type="text"
+          placeholder="Buscar..."
+          (input)="buscarGlobal($event)"
+        />
+      </div>
+    </ng-template>
+
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Nombre</th>
+        <th>Detalle</th>
+        <th>Período</th>
+        <th>Acciones</th>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-materia>
+      <tr>
+        <td>{{ materia.nombre }}</td>
+        <td>{{ materia.detalle || "-" }}</td>
+        <td>{{ getNombrePeriodo(materia.idPeriodo) }}</td>
+        <td>
+          <!-- Editar -->
+          <button
+            pButton
+            icon="pi pi-pencil"
+            class="p-button-sm p-button-rounded p-button-text"
+            (click)="abrirDialogEditar(materia)"
+            title="Editar"
+          ></button>
+
+          <!-- Eliminar -->
+          <button
+            pButton
+            icon="pi pi-trash"
+            class="p-button-sm p-button-rounded p-button-text p-button-danger"
+            (click)="eliminarMateria(materia.idMateria)"
+            title="Eliminar"
+          ></button>
+
+          <!-- Asociar estudiantes -->
+          <button
+            pButton
+            icon="pi pi-users"
+            class="p-button-sm p-button-rounded p-button-text p-button-help"
+            (click)="abrirModalAsociarEstudiantes(materia)"
+            title="Asociar estudiantes"
+          ></button>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+
+  <!-- Diálogo para crear/editar materia -->
+  <p-dialog
+    [(visible)]="crearDialogVisible"
+    [modal]="true"
+    [header]="modoEdicion ? 'Editar Materia' : 'Crear Materia'"
+    [style]="{ width: '500px' }"
+    [contentStyle]="{ padding: '1.5rem' }"
+  >
+    <form class="" #form="ngForm" (ngSubmit)="guardarMateria(form)">
+      <div class="p-fluid">
+        <div class="p-field mb-3">
+          <label for="nombre">Nombre</label>
+          <input
+            id="nombre"
+            type="text"
+            pInputText
+            name="nombre"
+            [(ngModel)]="nuevaMateria.nombre"
+            required
+          />
+          <small *ngIf="erroresValidacion['Nombre']" class="p-error">
+            {{ erroresValidacion["Nombre"][0] }}
+          </small>
+        </div>
+
+        <div class="p-field mb-3">
+          <label for="detalle">Detalle</label>
+          <input
+            id="detalle"
+            type="text"
+            pInputText
+            name="detalle"
+            [(ngModel)]="nuevaMateria.detalle"
+          />
+          <small *ngIf="erroresValidacion['Detalle']" class="p-error">
+            {{ erroresValidacion["Detalle"][0] }}
+          </small>
+        </div>
+
+        <div class="p-field mb-4">
+          <label for="idPeriodo">Período</label>
+          <p-dropdown
+            id="idPeriodo"
+            name="idPeriodo"
+            [options]="periodos"
+            optionLabel="codigo"
+            optionValue="idPeriodo"
+            [(ngModel)]="nuevaMateria.idPeriodo"
+            placeholder="Seleccione un período"
+            required
+          ></p-dropdown>
+          <small *ngIf="erroresValidacion['IdPeriodo']" class="p-error">
+            {{ erroresValidacion["IdPeriodo"][0] }}
+          </small>
+        </div>
+
+        <div class="" style="gap: 0.75rem"></div>
+      </div>
+      <button
+        pButton
+        type="submit"
+        label="Guardar"
+        class="p-button-sm p-button-primary"
+        style="min-width: 100px; float: right; margin: 2px"
+      ></button>
+      <button
+        pButton
+        type="button"
+        label="Cancelar"
+        class="p-button-sm p-button-outlined p-button-secondary"
+        style="min-width: 100px; float: right; margin: 2px"
+        (click)="crearDialogVisible = false"
+      ></button>
+    </form>
+  </p-dialog>
+
+  <!-- Modal de asociación de estudiantes -->
+  <p-dialog
+    [(visible)]="asociarDialogVisible"
+    [modal]="true"
+    [header]="
+      materiaSeleccionada
+        ? 'Asociar Estudiantes a: ' + materiaSeleccionada.nombre
+        : 'Asociar Estudiantes'
+    "
+    [style]="{ width: '600px', height: '300px' }"
+    [contentStyle]="{ padding: '1.5rem' }"
+  >
+    <div
+      *ngIf="todosEstudiantes.length > 0; else cargandoEstudiantes"
+      class="p-fluid"
+    >
+      <label class="p-text-bold mb-2">Estudiantes disponibles:</label>
+
+      <p-multiSelect
+        [options]="todosEstudiantes"
+        [(ngModel)]="estudiantesSeleccionados"
+        optionLabel="nombres"
+        display="chip"
+        placeholder="Busca y selecciona estudiantes"
+        selectedItemsLabel="{0} seleccionados"
+        class="w-100 mb-4"
+      >
+        <ng-template let-estudiante pTemplate="item">
+          {{ estudiante.nombres }} {{ estudiante.apellidos }}
+        </ng-template>
+      </p-multiSelect>
+    </div>
+    <div class="p-d-flex" style="margin: 5px">
+      <button
+        pButton
+        type="button"
+        icon="pi pi-times"
+        label="Cancelar"
+        class="p-button-sm p-button-outlined p-button-secondary"
+        style="min-width: 120px"
+        (click)="asociarDialogVisible = false"
+      ></button>
+
+      <button
+        pButton
+        type="button"
+        icon="pi pi-check"
+        label="Guardar"
+        class="p-button-sm p-button-success"
+        style="min-width: 120px"
+        (click)="guardarAsociaciones()"
+      ></button>
+    </div>
+    <ng-template #cargandoEstudiantes>
+      <div class="p-text-center p-mt-3">
+        <i class="pi pi-spin pi-spinner" style="font-size: 2rem"></i>
+        <p class="p-mt-2">Cargando estudiantes...</p>
+      </div>
+    </ng-template>
+  </p-dialog>
+</div>

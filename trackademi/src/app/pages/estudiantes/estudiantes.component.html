@@ -1,0 +1,203 @@
+<!-- Botón Crear -->
+
+<button
+  pButton
+  type="button"
+  label="Crear Estudiante"
+  icon="pi pi-plus"
+  (click)="abrirDialogCrear()"
+  class="p-button-success mb-3"
+></button>
+
+<!-- Tabla -->
+<p-table
+  #dt
+  [value]="estudiantes"
+  [paginator]="true"
+  [rows]="5"
+  [globalFilterFields]="['nombres', 'apellidos', 'matricula', 'email']"
+>
+  <ng-template pTemplate="caption">
+    <div class="p-input-icon-left">
+      <i class="pi pi-search"></i>
+      <input
+        pInputText
+        type="text"
+        placeholder="Buscar..."
+        (input)="buscarGlobal($event)"
+      />
+    </div>
+  </ng-template>
+
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Nombre</th>
+      <th>Matrícula</th>
+      <th>Email</th>
+      <th>Teléfono</th>
+      <th>Acciones</th>
+    </tr>
+  </ng-template>
+
+  <ng-template pTemplate="body" let-estudiante>
+    <tr>
+      <td>{{ estudiante.nombres }} {{ estudiante.apellidos }}</td>
+      <td>{{ estudiante.matricula }}</td>
+      <td>{{ estudiante.email }}</td>
+      <td>{{ estudiante.telefono || "—" }}</td>
+      <td>
+        <button
+          pButton
+          icon="pi pi-pencil"
+          class="p-button-sm p-button-rounded p-button-text"
+          (click)="abrirDialogEditar(estudiante)"
+          title="Editar"
+        ></button>
+        <button
+          pButton
+          icon="pi pi-trash"
+          class="p-button-sm p-button-rounded p-button-text p-button-danger"
+          (click)="eliminarEstudiante(estudiante.idEstudiante)"
+          title="Eliminar"
+        ></button>
+      </td>
+    </tr>
+  </ng-template>
+</p-table>
+
+<!-- Diálogo -->
+<p-dialog
+  [header]="modoEdicion ? 'Editar Estudiante' : 'Crear Estudiante'"
+  [(visible)]="crearDialogVisible"
+  [modal]="true"
+  [style]="{ width: '700px', maxHeight: '90vh' }"
+  [contentStyle]="{ overflow: 'visible' }"
+>
+  <form class="p-fluid" #form="ngForm" (ngSubmit)="guardarEstudiante(form)">
+    <div class="p-grid p-formgrid">
+      <!-- Campos del formulario -->
+      <div class="p-field p-col-12 p-md-6">
+        <label for="nombres">Nombres</label>
+        <input
+          id="nombres"
+          type="text"
+          pInputText
+          [(ngModel)]="nuevoEstudiante.nombres"
+          name="nombres"
+          required
+        />
+        <small *ngIf="erroresValidacion['Nombres']" class="p-error">
+          {{ erroresValidacion["Nombres"][0] }}
+        </small>
+      </div>
+
+      <div class="p-field p-col-12 p-md-6">
+        <label for="apellidos">Apellidos</label>
+        <input
+          id="apellidos"
+          type="text"
+          pInputText
+          [(ngModel)]="nuevoEstudiante.apellidos"
+          name="apellidos"
+          required
+        />
+        <small *ngIf="erroresValidacion['Apellidos']" class="p-error">
+          {{ erroresValidacion["Apellidos"][0] }}
+        </small>
+      </div>
+
+      <div class="p-field p-col-12 p-md-6">
+        <label for="matricula">Matrícula</label>
+        <input
+          id="matricula"
+          type="text"
+          pInputText
+          [(ngModel)]="nuevoEstudiante.matricula"
+          name="matricula"
+          required
+        />
+        <small *ngIf="erroresValidacion['Matricula']" class="p-error">
+          {{ erroresValidacion["Matricula"][0] }}
+        </small>
+      </div>
+
+      <div class="p-field p-col-12 p-md-6">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          pInputText
+          [(ngModel)]="nuevoEstudiante.email"
+          name="email"
+          required
+        />
+        <small *ngIf="erroresValidacion['Email']" class="p-error">
+          {{ erroresValidacion["Email"][0] }}
+        </small>
+      </div>
+
+      <div class="p-field p-col-12 p-md-6">
+        <label for="telefono">Teléfono</label>
+        <input
+          id="telefono"
+          type="text"
+          pInputText
+          [(ngModel)]="nuevoEstudiante.telefono"
+          name="telefono"
+        />
+        <small *ngIf="erroresValidacion['Telefono']" class="p-error">
+          {{ erroresValidacion["Telefono"][0] }}
+        </small>
+      </div>
+
+      <div class="p-field p-col-12 p-md-6">
+        <label for="genero">Género</label>
+        <p-dropdown
+          [options]="generos"
+          [(ngModel)]="nuevoEstudiante.genero"
+          name="genero"
+          placeholder="Seleccione género"
+          [autoDisplayFirst]="false"
+          required
+        ></p-dropdown>
+        <small *ngIf="erroresValidacion['Genero']" class="p-error">
+          {{ erroresValidacion["Genero"][0] }}
+        </small>
+      </div>
+
+      <div class="p-field p-col-12 p-md-6">
+        <label for="fechaNacimiento">Fecha de Nacimiento</label>
+        <p-calendar
+          [(ngModel)]="nuevoEstudiante.fechaNacimiento"
+          name="fechaNacimiento"
+          inputId="fechaNacimiento"
+          dateFormat="yy-mm-dd"
+          showIcon="true"
+        ></p-calendar>
+        <small *ngIf="erroresValidacion['FechaNacimiento']" class="p-error">
+          {{ erroresValidacion["FechaNacimiento"][0] }}
+        </small>
+      </div>
+    </div>
+
+    <!-- Botones -->
+    <div class="p-dialog-footer pt-2">
+      <button
+        pButton
+        type="button"
+        icon="pi pi-times"
+        label="Cancelar"
+        class="p-button-sm p-button-outlined p-button-secondary"
+        (click)="crearDialogVisible = false"
+      ></button>
+
+      <button
+        pButton
+        type="submit"
+        icon="pi pi-check"
+        label="Guardar"
+        class="p-button-sm p-button-primary"
+      ></button>
+    </div>
+  </form>
+</p-dialog>
