@@ -1,0 +1,41 @@
+<div class="login-wrapper">
+  <p-card class="login-card">
+    <div class="login-content">
+      <img src="assets/trackademi name-image.png" class="logo" alt="Logo" />
+      <h2>Iniciar Sesión</h2>
+
+      <form (ngSubmit)="ingresar()" #form="ngForm">
+        <div class="p-fluid">
+          <div class="p-field">
+            <input
+              type="text"
+              pInputText
+              placeholder="Usuario"
+              [(ngModel)]="loginData.usuario"
+              name="usuario"
+              required
+            />
+          </div>
+          <div class="p-field">
+            <input
+              type="password"
+              pInputText
+              placeholder="Contraseña"
+              [(ngModel)]="loginData.clave"
+              name="clave"
+              required
+            />
+          </div>
+          <button
+            pButton
+            type="submit"
+            label="Entrar"
+            class="p-button-primary w-full"
+          ></button>
+        </div>
+      </form>
+
+      <p *ngIf="error" class="p-error mt-2">{{ error }}</p>
+    </div>
+  </p-card>
+</div>

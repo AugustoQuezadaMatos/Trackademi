@@ -1,10 +1,12 @@
 import { Routes } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
+import { AuthGuard } from './pages/auth/auth.guard';
 
 export const routes: Routes = [
     {
         path: '',
         component: LayoutComponent,
+        canActivate: [AuthGuard],
         children: [
             {
                 path: 'usuarios',
@@ -48,8 +50,15 @@ export const routes: Routes = [
                         (m) => m.ControlAsistenciaComponent
                     ),
             },
-            // reco aquí
         ],
+    },
+    {
+        path: 'login',
+        loadComponent: () =>
+            import('./pages/login/login.component').then(
+                (m) => m.LoginComponent
+            ),
     },
     { path: '**', redirectTo: '' },
 ];
+

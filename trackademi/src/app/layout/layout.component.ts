@@ -9,8 +9,8 @@ import { MenuItem } from 'primeng/api';
 import { RouterLink } from '@angular/router';
 import { AvatarModule } from 'primeng/avatar';
 import { AvatarGroupModule } from 'primeng/avatargroup';
-
-
+import { AuthService } from '../services/auth.service';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-layout',
   standalone: true,
@@ -20,7 +20,6 @@ import { AvatarGroupModule } from 'primeng/avatargroup';
     SidebarModule,
     ButtonModule,
     PanelMenuModule,
-
     MenubarModule, AvatarModule, AvatarGroupModule
   ],
   templateUrl: './layout.component.html',
@@ -35,7 +34,7 @@ export class LayoutComponent implements AfterViewInit {
     { label: 'Periodos', icon: 'pi pi-book', routerLink: '/periodos' },
     { label: 'Asistencia', icon: 'pi pi-book', routerLink: '/control-asistencia' }
   ];
-
+  constructor(private router: Router, private authService: AuthService) { }
   sidebarVisible: boolean = true;
   isMobile: boolean = false;
 
@@ -48,6 +47,11 @@ export class LayoutComponent implements AfterViewInit {
 
   toggleSidebar() {
     this.sidebarVisible = !this.sidebarVisible;
+  }
+
+  logout() {
+    this.authService.logout(); // Borra token
+    this.router.navigate(['/login']); // Redirige
   }
 
   checkScreenSize() {
